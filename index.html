@@ -1,23 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventos</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eventos</title>
+        
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+
+            <div id="boton"> 
+        <button id="saludar">Saludar</button>
+        <script>document.getElementById("saludar").onclick = function(){
+            alert("Hola!"
+            )
+        };</script>
+        </div>
     
-    <style src="estilos.css"></style>
-</head>
-<body>
+    <pre id="mensaje"></pre>
 
-        <div class="boton"> 
-    <button id="saludar">Saludar</button>
-    <script>document.getElementById("saludar").onclick = function(){
-        alert("Hola!"
-        )
-    };</script>
-    </div>
- 
-
-
-</body>
-</html>
+    </body>
+    <script src="eventos.js"></script>
+    </html>
